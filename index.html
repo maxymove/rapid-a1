@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <script src="myscripts.js"></script>
+    <div class="box">
+      <h2>Subsribe Now!</h2>
+      <div class="email-box">
+        <form>
+          <label for="email">Email address</label>
+          <input type="text" id="email" oninput="emailValidation()" />
+          <p id="error"></p>
+          <button type="button" id="submit-btn" onclick="subscribeValidation()">
+            Subscribe
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

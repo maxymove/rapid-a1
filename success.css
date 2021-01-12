@@ -1,0 +1,21 @@
+.box {
+  width: 500px;
+  border: 1px solid rgb(165, 162, 162);
+  border-radius: 25px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.success-box {
+  width: auto;
+  color: #270;
+  background-color: #dff2bf;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  margin: 25px;
+  border: 1px solid rgb(165, 162, 162);
+  border-radius: 25px;
+  margin: 20px;
+  padding: 20px;
+}
